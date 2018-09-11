@@ -40,6 +40,7 @@ if [ -z "$(command -v cmake)" ]; then
   brew install cmake > /dev/null
 fi
 
+LCOV_VERSION=1.13
 if [ -z "$(command -v lcov)" ]; then
   echo "Installing lcov..."
   echo "You might be asked for your password to install lcov..."
